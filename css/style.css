@@ -63,6 +63,12 @@ h4:before {
     top: 9px;
 }
 
+h6 {
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold
+}
+
 
 /* General
 ==================================================*/
