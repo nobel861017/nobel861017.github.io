@@ -399,6 +399,39 @@ a.active {
     width: 100%;
 }
 
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 20px;
+}
+
+.publication-links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 14px;
+    border: 1px solid #425BB5;
+    border-radius: 6px;
+    color: #425BB5;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: background-color .2s, color .2s;
+}
+
+.publication-links a.publication-link-primary,
+.publication-links a:hover {
+    color: #fff;
+    background: #425BB5;
+}
+
+.publication-links a:focus-visible {
+    outline: 2px solid #425BB5;
+    outline-offset: 3px;
+}
+
 .timeline-event-copy h3 {
     font-size: 1.75em;
 }
@@ -611,6 +644,28 @@ a.active {
 .portfolio-logo img {
     padding: 30px;
     background: #fff;
+}
+
+.portfolio-github-cover {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: #f3f3f3;
+    color: #24292f;
+}
+
+.portfolio-github-cover i {
+    font-size: 96px;
+    line-height: 1;
+}
+
+.portfolio-github-cover span {
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .portfolio-padding {
